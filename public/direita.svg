@@ -5,8 +5,34 @@
    height="133.3269pt"
    viewBox="0 0 108.60968 133.3269"
    id="svg387"
+   sodipodi:docname="direita.svg"
+   inkscape:export-filename="direita.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="4.8264827"
+     inkscape:cx="72.412981"
+     inkscape:cy="88.884603"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg387" />
   <defs
      id="defs5">
     <clipPath
@@ -21,19 +47,6 @@
      d="m -488.7075,155.65881 h 612.284 v -172.541 h -612.284 z"
      fill="#00bbd6"
      id="path6" />
-  <text
-     fill="#ffffff"
-     xml:space="preserve"
-     transform="rotate(-90)"
-     font-size="11px"
-     font-family="DINPro"
-     font-style="italic"
-     id="text6"
-     x="-182.65881"
-     y="-515.70752"><tspan
-       y="106.2007"
-       x="-132.40782 -128.40381 -124.3998 -118.18481 -115.9408 -112.05781 -109.26381 -106.5798 -104.33579 -100.3318"
-       id="tspan6">ppm.art.br</tspan></text>
   <g
      clip-path="url(#clip_0)"
      id="g53"
