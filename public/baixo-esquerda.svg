@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="210.36072pt"
+   height="18.396206pt"
+   viewBox="0 0 210.36071 18.396206"
+   id="svg117"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <path
+     d="M -43.841701,55.561701 H 568.4423 v -94.97 H -43.841701 Z"
+     fill="#00bbd6"
+     id="path5" />
+  <text
+     fill="#ffffff"
+     xml:space="preserve"
+     font-size="7.5px"
+     font-family="Montserrat"
+     font-weight="bold"
+     id="text9"
+     x="-70.841698"
+     y="114.7257"><tspan
+       y="5.3400049"
+       x="0.067501135 7.4624977 11.145 18.067501 25.912502 34.567501 41.257511 48.6525 56.197498 63.742496 67.784996 75.18 78.862495 87.517494 94.912498 101.26499 105.30749 112.25324 119.64825 125.72324 129.40573 137.25073 144.64574 151.18573 154.86823 161.13072 167.67072 171.35321 177.8932 184.2457 191.22821 198.53995 204.54071"
+       id="tspan9">A COMPANHIA MUSICAL QUE TE ESCUTA</tspan></text>
+  <text
+     fill="#ffffff"
+     xml:space="preserve"
+     font-size="7px"
+     font-family="Montserrat"
+     font-style="italic"
+     id="text13"
+     x="-70.841698"
+     y="114.7257"><tspan
+       y="18.354202"
+       x="72.248055 79.430061 85.513069 88.747063 95.425056 101.88605 108.30506 114.01006 117.52407 123.04707 126.56107 132.98007 136.21407 142.32506 148.74406 155.20506 161.62407 164.85806 172.13106 175.36505 183.45006 190.39407 197.48508 204.66708"
+       id="tspan13">DE BRASÍLIA PARA O MUNDO</tspan></text>
+  <path
+     stroke-width="1.25"
+     stroke-linecap="butt"
+     stroke-miterlimit="10"
+     stroke-linejoin="miter"
+     fill="none"
+     stroke="#ffffff"
+     d="m -43.841701,-76.683699 h -27 m 639.283001,0 h 27 m -639.283001,155.906 h -27 m 639.283001,0 h 27 m -630.779001,-164.41 V -112.1877 m 0,199.913001 V 114.7253 M 559.9383,-85.187699 V -112.1877 m 0,199.913001 V 114.7253"
+     id="path64" />
+  <path
+     stroke-width="0.25"
+     stroke-linecap="butt"
+     stroke-miterlimit="10"
+     stroke-linejoin="miter"
+     fill="none"
+     stroke="#000000"
+     d="m -43.841701,-76.683699 h -27 m 639.283001,0 h 27 m -639.283001,155.906 h -27 m 639.283001,0 h 27 m -630.779001,-164.41 V -112.1877 m 0,199.913001 V 114.7253 M 559.9383,-85.187699 V -112.1877 m 0,199.913001 V 114.7253"
+     id="path65" />
+</svg>
