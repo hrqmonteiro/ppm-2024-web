@@ -40,7 +40,7 @@ export default function Home() {
           <img src="/baixo-esquerda.png" alt="esquerda" width={300} />
         </div>
         <div className="flex justify-center items-center">
-          {/* <img src="/grv.png" alt="meio" /> */}
+          <img src="/grv.png" alt="meio" width={90} />
         </div>
         <div className="flex justify-center items-center">
           <img src="/baixo-direita.png" alt="direita" width={300} />
