@@ -1,20 +1,29 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
-export default function Before() {
-  return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center">
-      <div className="w-full bg-black text-white flex flex-col justify-center items-center py-2 my-4">
-        <h1 className="text-3xl font-black md:text-5xl">PPM 2024</h1>
-        <h2 className="uppercase font-light text-xs border-b border-b-white">
-          From the natural to the artificial with a grip on reality
-        </h2>
-      </div>
+import Footer from "@/components/molecules/footer";
+import Header from "@/components/molecules/header";
+import Navbar from "@/components/molecules/navbar";
+import SubFooter from "@/components/molecules/sub-footer";
+import Atractions from "@/components/organisms/atractions";
+import FormFooter from "@/components/organisms/form-footer";
+import Homages from "@/components/organisms/homages";
+import Masthead from "@/components/organisms/masthead";
+import Memories from "@/components/organisms/memories";
 
-      <div className="transition-all duration-200">
-        <button className="py-4 px-8 bg-black uppercase text-xs font-black text-white border border-black hover:border-white hover:opacity-70">
-          Entre no mundo do PPM
-        </button>
-      </div>
-    </div>
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Header />
+      <Masthead />
+      <Atractions />
+      <Homages />
+      <Memories />
+
+      <FormFooter />
+      <Footer />
+      <SubFooter />
+    </>
   );
 }
