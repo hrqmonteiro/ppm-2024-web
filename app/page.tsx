@@ -8,7 +8,8 @@ export default function Before() {
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center">
       <div className="w-full bg-black text-white flex flex-col justify-center items-center py-2 my-4">
-        <h1 className="text-3xl font-black md:text-5xl">PPM 2024</h1>
+        {/* <h1 className="text-3xl font-black md:text-5xl">PPM 2024</h1> */}
+        <img src="/meio.png" alt="dedos" width={450} />
         <h2 className="uppercase font-light text-xs border-b border-b-white">
           From the natural to the artificial with a grip on reality
         </h2>
