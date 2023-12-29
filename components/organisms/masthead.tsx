@@ -10,7 +10,10 @@ import {
 
 export default function Masthead() {
   return (
-    <section className="bg-black text-primary min-h-screen p-3 md:p-6 flex flex-col justify-center items-center">
+    <section
+      id="event"
+      className="bg-black text-primary min-h-screen p-3 md:p-6 flex flex-col justify-center items-center px-3 md:px-6"
+    >
       <div className="flex justify-between my-10">
         <p className="uppercase font-black text-secondary">
           Prêmio
@@ -34,24 +37,24 @@ export default function Masthead() {
           Votação
         </button>
       </div>
-      <div className="my-10 flex justify-between">
-        <button className="flex mx-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
+      <div className="my-10 flex flex-wrap md:flex-nowrap justify-between">
+        <button className="flex m-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
           <UsersFour className="text-white text-6xl mb-4" />
           <span>Inscritos</span>
         </button>
-        <button className="flex mx-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
+        <button className="flex m-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
           <CalendarPlus className="text-white text-6xl mb-4" />
           <span>Indicados</span>
         </button>
-        <button className="flex mx-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
+        <button className="flex m-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
           <PersonSimpleWalk className="text-white text-6xl mb-4" />
           <span>Semifinalistas</span>
         </button>
-        <button className="flex mx-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
+        <button className="flex m-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
           <Stairs className="text-white text-6xl mb-4" />
           <span>Finalistas</span>
         </button>
-        <button className="flex mx-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
+        <button className="flex m-10 flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
           <Trophy className="text-white text-6xl mb-4" />
           <span>Campeões</span>
         </button>

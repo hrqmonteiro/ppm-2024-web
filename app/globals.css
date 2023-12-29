@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-primary;
   color: var(--text-primary);

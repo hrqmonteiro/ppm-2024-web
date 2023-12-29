@@ -21,7 +21,10 @@ import {
 
 export default function Atractions() {
   return (
-    <section className="bg-primary text-white min-h-screen px-3 md:px-64 py-3 md:py-6  flex flex-col items-center">
+    <section
+      id="atractions"
+      className="bg-primary text-white min-h-screen px-3 md:px-64 py-3 md:py-6  flex flex-col items-center"
+    >
       <div className="flex justify-between my-10">
         <span className="uppercase font-black text-secondary text-5xl">
           Atrações

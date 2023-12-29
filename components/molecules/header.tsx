@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <div className="bg-primary flex flex-wrap md:flex-nowrap gap-10 md:gap-0 justify-around items-center min-h-1/2 mt-12 md:border-b md:border-b-white">
+    <div className="bg-primary flex flex-wrap gap-10 md:gap-0 justify-around items-center min-h-1/2 mt-12 md:border-b md:border-b-white px-3 md:px-6">
       <div className="flex justify-center items-center">
         <img src="/esquerda.png" alt="esquerda" width={300} />
       </div>

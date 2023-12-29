@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/molecules/navbar";
+import Footer from "@/components/molecules/footer";
+import SubFooter from "@/components/molecules/sub-footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -23,9 +25,11 @@ export default function RootLayout({
       >
         <main>
           <Navbar />
-          <div className="flex flex-wrap md:flex-nowrap flex-col min-h-screen">
-            {children}
-          </div>
+
+          {children}
+
+          <Footer />
+          <SubFooter />
         </main>
       </body>
     </html>

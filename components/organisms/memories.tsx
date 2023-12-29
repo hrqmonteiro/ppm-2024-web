@@ -5,7 +5,10 @@ import MemoryCard from "../atoms/memory-card";
 
 export default function Memories() {
   return (
-    <section className="bg-white text-black min-h-svh flex flex-col justify-center flex-wrap items-center py-10">
+    <section
+      id="memories"
+      className="bg-white text-black min-h-svh flex flex-col justify-center flex-wrap items-center py-10 px-3 md:px-6"
+    >
       <div className="flex justify-between my-10">
         <span className="uppercase font-black text-5xl">
           Memória prêmio profissionais da música
