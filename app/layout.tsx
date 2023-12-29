@@ -19,18 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        // style={{ backgroundColor: "#00bbd6" }}
-        className={montserrat.className}
-      >
-        <main>
-          <Navbar />
-
-          {children}
-
-          <Footer />
-          <SubFooter />
-        </main>
+      <body className={montserrat.className}>
+        <main>{children}</main>
       </body>
     </html>
   );
