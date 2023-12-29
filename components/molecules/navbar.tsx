@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="px-3 md:px-6 py-5 bg-cyan-500/95 flex justify-between text-white font-bold">
       <div className="container mx-auto">
         <div className="flex justify-between">
-          <Link href="/" className="text-xl font-black">
+          <Link href="/before" className="text-xl font-black">
             PPM
           </Link>
           <ul className="hidden md:inline-flex uppercase text-white/80">
