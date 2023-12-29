@@ -7,6 +7,7 @@ import Navbar from "@/components/molecules/navbar";
 import Atractions from "@/components/organisms/atractions";
 import Homages from "@/components/organisms/homages";
 import Masthead from "@/components/organisms/masthead";
+import Memories from "@/components/organisms/memories";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Masthead />
       <Atractions />
       <Homages />
+      <Memories />
       <Footer />
     </>
   );
