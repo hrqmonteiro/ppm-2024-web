@@ -18,13 +18,14 @@ export default function Memories() {
       <div className="flex justify-center flex-wrap my-10">
         <div className="container mx-auto">
           <div className="flex justify-center flex-wrap">
+            <MemoryCard heading="2024" src="/memoria-2024.png" />
             <MemoryCard heading="2022/2023" src="/memoria2022.png" />
             <MemoryCard heading="2020/2021" src="/memoria2020_2021.png" />
-            <MemoryCard heading="2020/2021" src="/memoria-2019.png" />
-            <MemoryCard heading="2020/2021" src="/memoria-2018.png" />
-            <MemoryCard heading="2020/2021" src="/memoria-2017.png" />
-            <MemoryCard heading="2020/2021" src="/memoria-2016.png" />
-            <MemoryCard heading="2020/2021" src="/memoria-2015.png" />
+            <MemoryCard heading="2019" src="/memoria-2019.png" />
+            <MemoryCard heading="2018" src="/memoria-2018.png" />
+            <MemoryCard heading="2017" src="/memoria-2017.png" />
+            <MemoryCard heading="2016" src="/memoria-2016.png" />
+            <MemoryCard heading="2015" src="/memoria-2015.png" />
           </div>
         </div>
       </div>

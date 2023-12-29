@@ -19,7 +19,7 @@ export default function Before() {
         onClick={() => router.push("/before")}
         className="py-4 px-8 bg-black uppercase text-xs font-black text-white border border-black hover:border-white hover:opacity-70 transition-all duration-200"
       >
-        Entre no mundo do PPM
+        Entre
       </button>
     </div>
   );

@@ -17,27 +17,23 @@ export default function Homages() {
       <div className="flex flex-wrap md:flex-nowrap my-10">
         <HomageCard
           heading="Criação"
-          title="Chico Science"
-          body="Homenageado da 7ª edição - modalidade Criação | 84 categorias -
-          Cerimônia de Premiação | em 2023 Brasília - Distrito Federal"
+          title="Lorem Ipsum"
+          body="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur architecto ratione quas, ipsa illo voluptatibus vel voluptates aperiam odit sed dolorum corrupti iure, sapiente cum velit nostrum voluptas at."
         />
         <HomageCard
           heading="Produção"
-          title="Chico Science"
-          body="Homenageado da 7ª edição - modalidade Criação | 84 categorias -
-          Cerimônia de Premiação | em 2023 Brasília - Distrito Federal"
+          title="Lorem Ipsum"
+          body="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur architecto ratione quas, ipsa illo voluptatibus vel voluptates aperiam odit sed dolorum corrupti iure, sapiente cum velit nostrum voluptas at."
         />
         <HomageCard
           heading="Educação"
-          title="Chico Science"
-          body="Homenageado da 7ª edição - modalidade Criação | 84 categorias -
-          Cerimônia de Premiação | em 2023 Brasília - Distrito Federal"
+          title="Lorem Ipsum"
+          body="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur architecto ratione quas, ipsa illo voluptatibus vel voluptates aperiam odit sed dolorum corrupti iure, sapiente cum velit nostrum voluptas at."
         />
         <HomageCard
           heading="Convergência"
-          title="Chico Science"
-          body="Homenageado da 7ª edição - modalidade Criação | 84 categorias -
-          Cerimônia de Premiação | em 2023 Brasília - Distrito Federal"
+          title="Lorem Ipsum"
+          body="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur architecto ratione quas, ipsa illo voluptatibus vel voluptates aperiam odit sed dolorum corrupti iure, sapiente cum velit nostrum voluptas at."
         />
       </div>
     </section>

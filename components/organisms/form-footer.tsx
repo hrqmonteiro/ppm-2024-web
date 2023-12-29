@@ -1,15 +1,50 @@
 "use client";
 
+import { useState } from "react";
+import toast from "react-hot-toast";
+
 export default function FormFooter() {
   const CLASSNAMES =
     "block w-96 mt-2 placeholder-gray-400/70  rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40";
+
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [subject, setSubject] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+
+    const currentBody = {
+      name,
+      email,
+      subject,
+      message,
+    };
+
+    try {
+      const res = await fetch("/api/send-mail", {
+        method: "POST",
+        body: JSON.stringify(currentBody),
+      });
+
+      const data = await res.json();
+
+      toast.success("Enviado com sucesso!");
+    } catch (e) {
+      console.log(e);
+    }
+  }
 
   return (
     <section
       id="contact"
       className="min-h-screen bg-black text-white py-10 px:3 md:px-6"
     >
-      <div className="w-full flex flex-col justify-center items-center my-10">
+      <form
+        onSubmit={onSubmit}
+        className="w-full flex flex-col justify-center items-center my-10"
+      >
         <div className="uppercase font-black text-5xl mb-20">Contato</div>
         <div className="mb-4">
           <label htmlFor="name">Seu nome</label>
@@ -18,6 +53,8 @@ export default function FormFooter() {
             type="text"
             placeholder="Digite seu nome completo..."
             className={CLASSNAMES}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div className="mb-4">
@@ -27,6 +64,8 @@ export default function FormFooter() {
             type="email"
             placeholder="seumelhor@email.com"
             className={CLASSNAMES}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </div>
         <div className="mb-4">
@@ -36,6 +75,8 @@ export default function FormFooter() {
             type="text"
             placeholder="Digite o assunto/setor..."
             className={CLASSNAMES}
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
           />
         </div>
         <div className="mb-4">
@@ -45,6 +86,8 @@ export default function FormFooter() {
             name="message"
             placeholder="Digite aqui..."
             className={CLASSNAMES}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           />
         </div>
         <div className="w-96 flex justify-end">
@@ -52,7 +95,7 @@ export default function FormFooter() {
             Enviar
           </button>
         </div>
-      </div>
+      </form>
     </section>
   );
 }

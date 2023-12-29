@@ -10,6 +10,7 @@ import FormFooter from "@/components/organisms/form-footer";
 import Homages from "@/components/organisms/homages";
 import Masthead from "@/components/organisms/masthead";
 import Memories from "@/components/organisms/memories";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <FormFooter />
       <Footer />
       <SubFooter />
+      <Toaster />
     </>
   );
 }

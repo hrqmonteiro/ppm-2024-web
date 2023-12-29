@@ -13,6 +13,7 @@ import {
   Presentation,
   PresentationChart,
   ProjectorScreen,
+  Radio,
   Slideshow,
   Stairs,
   Trophy,
@@ -42,7 +43,7 @@ export default function Atractions() {
           </button>
           <button className="flex basis-full flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
             <Slideshow className="text-white text-6xl mb-4" />
-            <span>Superlives</span>
+            <span>Moção de Louvor</span>
           </button>
         </div>
         <div className="w-full justify-center flex my-10">
@@ -78,15 +79,15 @@ export default function Atractions() {
         <div className="w-full justify-center flex my-10">
           <button className="flex basis-full flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
             <MusicNotes className="text-white text-6xl mb-4" />
-            <span>Música</span>
+            <span>LAB Música</span>
           </button>
           <button className="flex basis-full flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
-            <Camera className="text-white text-6xl mb-4" />
-            <span>Photos</span>
+            <Radio className="text-white text-6xl mb-4" />
+            <span>Podcast</span>
           </button>
           <button className="flex basis-full flex-col text-sm uppercase font-bold text-white justify-center items-center hover:opacity-70 transition-all duration-200">
             <FilmReel className="text-white text-6xl mb-4" />
-            <span>Clips e Docs</span>
+            <span>Mostra audiovisual</span>
           </button>
         </div>
       </div>

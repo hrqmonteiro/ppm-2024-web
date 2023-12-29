@@ -12,10 +12,10 @@ export default function Navbar() {
           </Link>
           <ul className="hidden md:inline-flex uppercase text-white/80">
             <Link href="#event" className="mr-2 uppercase">
-              Evento
+              Premiação
             </Link>
             <Link href="#atractions" className="mr-2 uppercase">
-              Atrações
+              Evento
             </Link>
             <Link href="#homages" className="mr-2 uppercase">
               Homenageado(a)s

@@ -24,7 +24,7 @@ export default function Masthead() {
         </p>
       </div>
       <div className="my-10">
-        <img alt="PPM" src="/transparent.png" />
+        <img alt="PPM" src="/transparent.png" width={300} />
       </div>
       <div className="my-10 flex flex-col">
         <button className="uppercase font-bold bg-secondary text-black py-3 px-8 rounded-lg hover:opacity-70 transition-all duration-200 my-4">

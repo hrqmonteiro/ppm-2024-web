@@ -6,10 +6,11 @@ export default function HomageCard({ heading, title, body }: any) {
       <div className="mb-2 font-bold text-xl uppercase">
         <span>{heading}</span>
       </div>
-      <div className="bg-secondary text-black p-3">
+      <div className="bg-primary text-black p-3">
         <span className="uppercase font-black text-xl mb-4">{title}</span>
         <p className="break-all text-sm mb-4">{body}</p>
-        <img src="/chico.png" alt="teste" />
+        {/* <img src="/chico.png" alt="teste" /> */}
+        <div className="bg-white h-40" />
       </div>
     </button>
   );
