@@ -4,6 +4,7 @@
 import Footer from "@/components/molecules/footer";
 import Header from "@/components/molecules/header";
 import Navbar from "@/components/molecules/navbar";
+import SocialLinks from "@/components/molecules/social-links";
 import SubFooter from "@/components/molecules/sub-footer";
 import Atractions from "@/components/organisms/atractions";
 import FormFooter from "@/components/organisms/form-footer";
@@ -15,6 +16,7 @@ import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
     <>
+      <SocialLinks />
       <Navbar />
       <Header />
       <Masthead />

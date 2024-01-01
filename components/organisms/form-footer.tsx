@@ -31,6 +31,10 @@ export default function FormFooter() {
       const data = await res.json();
 
       toast.success("Enviado com sucesso!");
+      setName("");
+      setEmail("");
+      setMessage("");
+      setSubject("");
     } catch (e) {
       console.log(e);
     }
