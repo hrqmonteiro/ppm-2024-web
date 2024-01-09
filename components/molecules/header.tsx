@@ -3,7 +3,7 @@
 export default function Header() {
   return (
     <div className="flex flex-wrap gap-10 md:gap-0 justify-around items-center min-h-1/2 mt-12 md:border-b md:border-b-white px-3 md:px-6">
-      {/* <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center">
         <img src="/esquerda.png" alt="esquerda" width={300} />
       </div>
       <div className="flex justify-center items-center">
@@ -23,8 +23,7 @@ export default function Header() {
           width={230}
         />
         <img className="md:hidden" src="/meio.png" alt="direita" width={800} />
-      </div> */}
-      <img src='/face_inscrições.png' width={1100} />
+      </div>
     </div>
   );
 }
