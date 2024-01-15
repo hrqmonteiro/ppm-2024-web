@@ -15,8 +15,8 @@ export async function POST(request: Request) {
   const res = await request.json();
 
   const bodyRequest = {
-    name: res.cpf,
-    email: res.cpf,
+    name: res.name,
+    email: res.email,
     subject: res.subject,
     message: res.message,
   };

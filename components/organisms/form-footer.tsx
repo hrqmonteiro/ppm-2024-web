@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
 export default function FormFooter() {
@@ -12,8 +12,17 @@ export default function FormFooter() {
   const [subject, setSubject] = useState<string>("");
   const [message, setMessage] = useState<string>("");
 
+  useEffect(() => {
+    console.log(name)
+    console.log(email)
+    console.log(subject)
+    console.log(message)
+  })
+
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+
+    console.log('aaaq')
 
     const currentBody = {
       name,
@@ -22,6 +31,8 @@ export default function FormFooter() {
       message,
     };
 
+    console.log('current body', currentBody)
+
     try {
       const res = await fetch("/api/send-mail", {
         method: "POST",
@@ -29,6 +40,7 @@ export default function FormFooter() {
       });
 
       const data = await res.json();
+      console.log(data)
 
       toast.success("Enviado com sucesso!");
       setName("");
@@ -95,7 +107,7 @@ export default function FormFooter() {
           />
         </div>
         <div className="w-96 flex justify-end">
-          <button className="bg-secondary uppercase text-black px-4 py-3 rounded-lg font-bold hover:opacity-70 transition-all duration-200">
+          <button type='submit' className="bg-secondary uppercase text-black px-4 py-3 rounded-lg font-bold hover:opacity-70 transition-all duration-200">
             Enviar
           </button>
         </div>
