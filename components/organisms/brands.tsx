@@ -59,7 +59,7 @@ export default function Brands() {
       className="bg-white text-black md:px-6 py-4 flex justify-center items-center"
     >
       <div className="flex flex-col items-center justify-start mx-8">
-        <h3 className="uppercase text-sm font-light">Promoção Internacional</h3>
+        <h3 className="uppercase text-sm font-light">Parceiro Internacional</h3>
         <div className="flex justify-center items-center ">
           {international.map((brand, index: number) => (
             <Link
