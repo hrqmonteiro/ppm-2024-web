@@ -59,7 +59,7 @@ export default function Brands() {
       <h3 className="uppercase text-lg font-bold text-primary mb-6">Parceiros internacionais</h3>
       <div className='flex justify-center items-center mb-10'>
         {international.map((brand, index: number) => (
-          <Link className="hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
+          <Link className="m-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
             <img src={brand.src} alt={brand.name} width={100} />
           </Link>
         ))}
@@ -68,7 +68,7 @@ export default function Brands() {
       <h3 className="uppercase text-lg font-bold text-primary mb-10">Promoção Nacional</h3>
       <div className='flex justify-center items-center mb-10'>
         {national.map((brand, index: number) => (
-          <Link className="hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
+          <Link className="m-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
             <img src={brand.src} alt={brand.name} width={100} />
           </Link>
         ))}
@@ -77,7 +77,7 @@ export default function Brands() {
       <h3 className="uppercase text-lg font-bold text-primary mb-10">Promoção Executiva</h3>
       <div className='flex justify-center items-center mb-10'>
         {executiva.map((brand, index: number) => (
-          <Link className="hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
+          <Link className="m-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
             <img src={brand.src} alt={brand.name} width={100} />
           </Link>
         ))}
@@ -86,7 +86,7 @@ export default function Brands() {
       <h3 className="uppercase text-lg font-bold text-primary mb-10">Comunicação</h3>
       <div className='flex flex-wrap md:flex-nowrap justify-center items-center mb-10'>
         {comunicacao.map((brand, index: number) => (
-          <Link className="mx-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
+          <Link className="m-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
             <img className="grayscale" src={brand.src} alt={brand.name} width={100} />
           </Link>
         ))}
@@ -95,7 +95,7 @@ export default function Brands() {
       <h3 className="uppercase text-lg font-bold text-primary mb-10">Realização</h3>
       <div className='flex flex-wrap md:flex-nowrap justify-center items-center mb-10'>
         {realizacao.map((brand, index: number) => (
-          <Link className="mx-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
+          <Link className="m-8 hover:opacity-70 transition-all duration-200" key={index} href={brand.url} target="_blank">
             <img className="grayscale" src={brand.src} alt={brand.name} width={100} />
           </Link>
         ))}
