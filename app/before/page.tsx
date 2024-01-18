@@ -7,6 +7,7 @@ import Navbar from "@/components/molecules/navbar";
 import SocialLinks from "@/components/molecules/social-links";
 import SubFooter from "@/components/molecules/sub-footer";
 import Atractions from "@/components/organisms/atractions";
+import Brands from "@/components/organisms/brands";
 import FormFooter from "@/components/organisms/form-footer";
 import Homages from "@/components/organisms/homages";
 import Masthead from "@/components/organisms/masthead";
@@ -20,6 +21,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Masthead />
+      <Brands />
       <Atractions />
       <Homages />
       <Memories />
